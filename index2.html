@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 4 - Task 1</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <label>Student Name:</label>
+        <input type="text" name="studentName"><br><br>
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+        <label>Course:</label>
+        <select name="course">
+            <option value="BSCS">BSCS</option>
+            <option value="BSIT">BSIT</option>
+            <option value="BSSE">BSSE</option>
+        </select><br><br>
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" name="hobbies" value="Sports"> Sports
+        <input type="checkbox" name="hobbies" value="Music"> Music<br><br>
+        <button type="submit">Register</button>
+    </form>
+    <hr>
+    <h2>Registered Students</h2>
+    <table border="1">
+        <tr>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Course</th>
+            <th>Hobbies</th>
+        </tr>
+        <tr>
+            <td>Ali Khan</td>
+            <td>ali@example.com</td>
+            <td>Male</td>
+            <td>BSCS</td>
+            <td>Reading, Sports</td>
+        </tr>
+        <tr>
+            <td>Ayesha Noor</td>
+            <td>ayesha@example.com</td>
+            <td>Female</td>
+            <td>BSIT</td>
+            <td>Music</td>
+        </tr>
+    </table>
+    <hr>
+    <center>
+    <fieldset style="width: 800px; border: 0px solid rgb(249, 247, 247);">
+    <h1>
+        Lab 4 task 2
+    </h1>
+        <div style="text-align: center;">
+            <h1>LAAM</h1>
+            <h3>POST DELIVERY CONCERN</h3>
+            <h2 style="color: blue; letter-spacing: 5px;">RETURN FORM</h2>
+        </div>
+        <form>       
+            <p>
+                Date: <input type="text" style="border:none; border-bottom: 1px solid black; width: 200px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Tracking ID: <input type="text" style="border:none; border-bottom: 1px solid black; width: 200px;">
+            </p>
+            <div style="background-color: #f9f9f9; padding: 10px;">
+                <p>
+                    Client Name: <input type="text" style="border:none; border-bottom: 1px solid #ccc; width: 35%;">
+                    Order Number: LAAM-<input type="text" style="border:none; border-bottom: 1px solid #ccc; width: 30%;">
+                </p>
+                <p>
+                    Article Code/Item Name: <input type="text" style="border:none; border-bottom: 1px solid #ccc; width: 30%;">
+                    Quantity: <input type="text" style="border:none; border-bottom: 1px solid #ccc; width: 30%;">
+                </p>
+                <p>
+                    Brand Name: <input type="text" style="border:none; border-bottom: 1px solid #ccc; width: 35%;">
+                    Price: <input type="text" style="border:none; border-bottom: 1px solid #ccc; width: 35%;">
+                </p>
+            </div>
+            <h3>Reason of Return</h3>
+            <input type="checkbox"> Defective Article &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> Missing Pieces <br><br>
+            <input type="checkbox"> Alteration Required &nbsp;&nbsp; <input type="checkbox"> Refund Committed <br><br>
+            Any Other: <input type="text" style="border:none; border-bottom: 1px solid black; width: 80%;">
+            <hr style="border: 0.5px solid #eee;">
+            <h3>Committed Resolution by LAAM</h3>
+            <input type="checkbox"> Exchange of Article &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> Exchange of Size <br><br>
+            <input type="checkbox"> Issuance of Refund &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> Issuance of Credit Note <br><br>
+            Any Other: <input type="text" style="border:none; border-bottom: 1px solid black; width: 80%;">
+        </form>
+        <footer style="text-align: center; margin-top: 50px; font-size: 12px;">
+            Laam Pvt Ltd.
+        </footer>
+    </fieldset>
+</center>
+<hr>
+</form>
+</fieldset>
+</center>
+<hr>
+<center>
+    <fieldset style="width: 400px; padding: 20px; border: 2px solid black;">
+        <h3>Pete's Pizza Delivery</h3>
+        <h4>Online Order Form</h4>
+<h2>Lab Task 9</h2>
+<h3>Pete's Pizza Delivery</h3>
+<h4>Online Order Form</h4>
+<form>
+    Name: <input type="text"><br><br>
+    Address: <input type="text"><br><br>
+    Town/City: <input type="text"><br><br>
+    Postcode: <input type="text"><br><br>
+    Tel: <input type="text"><br><br>
+    Email: <input type="email"><br><br>
+    <div style="display: flex; justify-content: space-between; align-items: flex-start;">          
+        <div>
+            <strong>Topping</strong><br>
+            <input type="radio" name="topping" style="accent-color: blue;"> Margherita<br>
+            <input type="radio" name="topping" style="accent-color: green;"> Four Seasons<br>
+            <input type="radio" name="topping" style="accent-color: yellow;"> Meat Feast
+        </div>
+        <div>
+            <strong>Size</strong><br>
+            <input type="radio" name="size"> Small<br>
+            <input type="radio" name="size"> Medium<br>
+            <input type="radio" name="size"> Large
+        </div>
+        <div>
+            <strong>Extras</strong><br>
+            <input type="checkbox"> Mushrooms<br>
+            <input type="checkbox"> Green peppers<br>
+            <input type="checkbox"> Anchovies<br>
+            <input type="checkbox"> Extra cheese
+        </div>
+    </div>
+    <br><br>
+    Preferred delivery time:
+    <input type="time"><br><br>
+    Delivery instructions:<br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+    <input type="submit" value="Submit Order">
+</form>
+</fieldset>
+</body>
+</html>
